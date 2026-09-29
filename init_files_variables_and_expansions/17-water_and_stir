@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 -c 'exec("import os\nw=\"water\"\ns=\"stir.\"\no=\"bestchol\"\nf=lambda x,b:int(\"\".join(str(b.index(c)) for c in x),len(b))\nn=f(os.getenv(\"WATER\"),w)+f(os.getenv(\"STIR\"),s)\nr=\"\"\nwhile n:\n r=o[n%len(o)]+r\n n//=len(o)\nprint(r or o[0])")'
