@@ -1,3 +1,1 @@
-ALU Shell Basics
-
-Shell basics scripts for ALU.
+# Shell init files, variables and expansions
